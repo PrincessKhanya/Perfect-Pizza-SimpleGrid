@@ -1,0 +1,76 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(218, 203, 203);
+    font-family: cursive;
+}
+
+
+@media (min-width: 0px) {
+    .social{
+        display: flex;
+    }
+}
+
+#small {
+    
+    background-color: #3F8BC8;
+    border-radius: 0.3em;
+    height: 550px;
+    box-shadow: 0 6px 20px rgba(34, 130, 209, 0.2) , 6px 6px 6px rgba(34, 130, 209,0.3);
+    text-align: center;
+      
+}
+#medium {
+    
+    background-color: #C02684;
+    border-radius: 0.3em;
+    height: 550px;
+    box-shadow: 0 6px 20px rgba(192, 38, 132, 0.2) , 6px 6px 6px rgba(192, 38, 132,0.3);
+    text-align: center;
+    
+     
+}
+
+#large {
+    background-color: #F6A425;
+    border-radius: 0.3em;
+    height: 550px;
+    box-shadow: 0 6px 20px rgba(246, 164, 37, 0.19) , 6px 6px 6px rgba(246, 164, 37,0.23);
+    text-align: center;   
+}
+
+#footer {
+    background-color: #E27D4F;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+}
+
+.social {
+    text-align: center;
+}
+
+.social li {
+    list-style: none;
+    margin: 0em;
+    padding: 0em;
+    flex: 1;
+    
+}
+
+.social a {
+    padding: 0.1em;
+    display: block;
+    width: 6em;
+
+
+}
+
+.social a:hover {
+    background-color: #ee6120;
+    transform: scale(1.2);
+}
